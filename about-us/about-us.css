@@ -1,0 +1,334 @@
+.about-us {
+  padding-top: 60px;
+}
+
+.about-banner {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)), url("/assets/blurryg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.about-banner h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #223638;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-top: 20px;
+  font-style: italic;
+  color: #223638;
+}
+
+.about-story {
+  display: flex;
+  padding: 60px 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  gap: 40px;
+  margin: 0 auto;
+  background: #F6FFF8;
+}
+
+.about-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-content h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #223638;
+}
+
+.about-content h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #223638;
+}
+
+.about-content p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #223638;
+}
+
+.mission-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #223638;
+  padding: 25px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.mission-box h3 {
+  font-size: 30px;
+  color: #F6FFF8;
+}
+
+.mission-box p {
+  color: #FFFFC8;
+}
+
+.about-image {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+}
+
+.about-image img {
+  width: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  border-color: none;
+}
+
+.value {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-value {
+  background-color: #647374;
+  padding: 80px 20px;
+  text-align: center;
+  color: #F6FFF8;
+}
+
+.value h2 {
+  color: #F6FFF8;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.value p {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  text-align: center;
+  color: #F6FFF8;
+}
+
+.value-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto 60px;
+  text-align: center;
+}
+
+.value-item {
+  background-color: #F6FFF8;
+  padding: 30px;
+  border-radius: 20px;
+  width: 250px;
+}
+
+.value-item h3 {
+  font-size: 20px;
+  color: #223638;
+}
+
+.value-item p {
+  line-height: 1.5;
+  color: #223638;
+}
+
+.achievements {
+  margin-top: 80px;
+}
+
+.achievements h3 {
+  color: #F6FFF8;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.achievement-cardss {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.achievement-card {
+  background-color: #223638;
+  padding: 30px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.achievement-card h3 {
+  color: #F6FFF8;
+  margin-bottom: 5px;
+}
+
+.achievement-card p {
+  color: #FFFFC8;
+  font-size: 20px;
+}
+
+.team-section {
+  padding: 80px 20px;
+  background-color: #F6FFF8;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 35px;
+  color: #223638;
+  margin-bottom: 20px;
+}
+
+.team-intro {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 19px;
+  margin-top: 20px;
+  color: #223638;
+}
+
+.team-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-member {
+  width: 280px;
+  background-color: #748182;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.member-img {
+  height: 280px;
+  overflow: hidden;
+}
+
+.member-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-member h4 {
+  font-size: 20px;
+  color: #F6FFF8;
+  margin: 20px 0 5px;
+}
+
+.member-title {
+  color: #223638;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-banner {
+    padding: 60px 10px;
+  }
+  .about-banner h1 {
+    font-size: 30px;
+  }
+
+  .tagline {
+    font-size: 12px;
+  }
+
+  .about-story {
+    flex-direction: column;
+  }
+
+  .about-content h2 {
+    font-size: 25px;
+  }
+
+  .about-content h3 {
+    font-size: 15px;
+  }
+
+  .about-content p {
+    font-size: 12px;
+  }
+
+  .about-value {
+    padding: 60px 15px;
+  }
+
+  .value h2 {
+    font-size: 25px;
+  }
+
+  .value p {
+    font-size: 15px;
+  }
+
+  .value-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .value-item {
+    width: 70%;
+  }
+
+  .achievement-cardss {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .achievement-card {
+    width: 70%;
+    max-width: 300px;
+  }
+
+  .team-section {
+    padding: 60px 15px;
+  }
+
+  .team-section h2 {
+    font-size: 25px;
+  }
+
+  .team-intro {
+    font-size: 15px;
+  }
+
+  .team-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .member-img {
+    max-height: 300px;
+  }
+}

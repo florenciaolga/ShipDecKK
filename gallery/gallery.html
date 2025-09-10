@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShipDecKK</title>
+  <link rel="stylesheet" href="/index/style.css">
+  <link rel="stylesheet" href="/gallery/gallery.css">
+</head>
+<body>
+  
+  <header>
+    <nav class="navigation">
+      <h2 class="title-text">ShipDecKK</h2>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="navigation-menu" id="navMenu">
+        <li class="navigation-item">
+          <a href="/index/index.html" class="navigation-link">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a href="/gallery/gallery.html" class="navigation-link">Gallery</a>
+        </li>
+        <li class="navigation-item">
+          <a href="/service-page/service.html" class="navigation-link">Services</a>
+        </li>
+        <li class="navigation-item">
+          <a href="/about-us/about-us.html" class="navigation-link">About Us</a>
+        </li>
+        <li class="navigation-item">
+          <a href="/subscription/subscription.html" class="navigation-link">Subscription</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="gallery">
+    <h1 class="gallery-title">ShipDecKK's Premium Collection</h1>
+    <p class="gallery-sub">Browse our curated and exclusive selection of high-end yachts, luxury liners, and cargo ships</p>
+
+    <section class="gallery-header">
+      <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Find your perfect yacht, liners, cargo...">
+
+      </div>
+    </section>
+
+
+    <div class="filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="yacht">Yachts</button>
+      <button class="filter-btn" data-filter="liner">Liners</button>
+      <button class="filter-btn" data-filter="cargo">Cargo</button>
+    </div>
+
+    <section class="gallery-grid" id="gallery">
+
+      <div class="ship-card" data-type="yacht">
+        <div class="img-card-gallery">
+          <img src="/assets/yacht1.jpg" alt="yacht1">
+        </div>
+        <div class="ship-info">
+          <div class="ship-tag">Yacht</div>
+          <h3>Alexandria Yacht</h3>
+          <p>Luxury yacht with modern interior perfect for coastal cruising. Features spacious decks and premium amenities.</p>
+          <div class="ship-specification">
+            <span>120 ft</span>
+            <span>12 guests</span>
+          </div>
+          <div class="price-container">
+            <div class="price">$2,000,000</div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="ship-card" data-type="yacht">
+        <div class="img-card-gallery">
+          <img src="/assets/yacht2.jpg" alt="yacht2">
+        </div>
+        <div class="ship-info">
+          <div class="ship-tag">Yacht</div>
+          <h3>Bergmuller Yacht</h3>
+          <p>Luxury yacht with rustic interior design and state-of-the-art navigation systems for long journeys.</p>
+          <div class="ship-specification">
+            <span>150 ft</span>
+            <span>15 guests</span>
+          </div>
+          <div class="price-container">
+            <div class="price">$5,000,000</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ship-card" data-type="yacht">
+        <div class="img-card-gallery">
+          <img src="/assets/yacht3.jpg" alt="yacht3">
+        </div>
+        <div class="ship-info">
+          <div class="ship-tag">Yacht</div>
+          <h3>Philosa Yacht</h3>
+          <p>Luxury yacht with sleek design and cutting-edge technology. Perfect for ocean adventures with family and friends.</p>
+          <div class="ship-specification">
+            <span>100 ft</span>
+            <span>6 guests</span>
+          </div>
+          <div class="price-container">
+            <div class="price">$3,000,000</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ship-card" data-type="liner">
+        <div class="img-card-gallery">
+          <img src="/assets/luxuryliner1.jpeg" alt="liner1">
+        </div>
+        <div class="ship-info">
+          <div class="ship-tag">Liner</div>
+          <h3>Atlantis Liner</h3>
+          <p>Premium cruise liner with entertainment facilities, restaurants, and panoramic ocean views.</p>
+          <div class="ship-specification">
+            <span>1000 ft</span>
+            <span>6000 guests</span>
+          </div>
+          <div class="price-container">
+            <div class="price">$70,000,000</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ship-card" data-type="liner">
+        <div class="img-card-gallery">
+          <img src="/assets/luxuryliner2.jpeg" alt="liner2">
+        </div>
+        <div class="ship-info">
+          <div class="ship-tag">Liner</div>
+          <h3>Kubereum Liner</h3>
+          <p>Luxury liner designed for world cruises with multiple dining options and premium suites, perfect for a short getaway.</p>
+          <div class="ship-specification">
+            <span>900 ft</span>
+            <span>2000 guests</span>
+          </div>
+          <div class="price-container">
+            <div class="price">$90,000,000</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ship-card" data-type="liner">
+        <div class="img-card-gallery">
+          <img src="/assets/luxuryliner3.jpeg" alt="liner3">
+        </div>
+        <div class="ship-info">
+          <div class="ship-tag">Liner</div>
+          <h3>Costa Liner</h3>
+          <p>Magnificent liner specifically made for extravagant cruise to all over the world. Cruising made comfortable.</p>
+          <div class="ship-specification">
+            <span>2000 ft</span>
+            <span>10000 guests</span>
+          </div>
+          <div class="price-container">
+            <div class="price">$200,000,000</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ship-card" data-type="cargo">
+        <div class="img-card-gallery">
+          <img src="/assets/cargo1.webp" alt="cargo1">
+        </div>
+        <div class="ship-info">
+          <div class="ship-tag">Cargo</div>
+          <h3>Pacific Transporter</h3>
+          <p>Modern cargo ship with container capacity optimized for trans-oceanic shipping routes.</p>
+          <div class="ship-specification">
+            <span>800 ft</span>
+            <span>100,000 tons</span>
+          </div>
+          <div class="price-container">
+            <div class="price">$20,000,000</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ship-card" data-type="cargo">
+        <div class="img-card-gallery">
+          <img src="/assets/cargo2.jpeg" alt="cargo2">
+        </div>
+        <div class="ship-info">
+          <div class="ship-tag">Cargo</div>
+          <h3>Third Transporter</h3>
+          <p>High-capacity cargo vessel with advanced navigation systems and efficient fuel consumption.</p>
+          <div class="ship-specification">
+            <span>900 ft</span>
+            <span>150,000 tons</span>
+          </div>
+          <div class="price-container">
+            <div class="price">$29,000,000</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ship-card" data-type="cargo">
+        <div class="img-card-gallery">
+          <img src="/assets/cargo3.jpeg" alt="cargo3">
+        </div>
+        <div class="ship-info">
+          <div class="ship-tag">Cargo</div>
+          <h3>Aiya Transporter</h3>
+          <p>Specialized cargo vessel designed for heavy machinery transport with reinforced hulls.</p>
+          <div class="ship-specification">
+            <span>500 ft</span>
+            <span>40,000 tons</span>
+          </div>
+          <div class="price-container">
+            <div class="price">$40,000,000</div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+
+  </main>
+
+
+  <footer>
+    <div class="footer-container">
+
+      <div class="footer-page">
+        <div class="footer-bottom">
+          <h3 class="footer-title">ShipDecKK</h3>
+          <p class="footer-desc">
+            Your trusted partner in premium yacht, liners, and cargo
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <address>
+            <p>Address: Jl. MH. Thamrin, RT.002/RW.001, Panunggangan, Kec. Pinang, Kota Tangerang, Banten 15143</p>
+            <p>Phone: 08123456789</p>
+            <p>Email: shipdeckk2025@gmail.com</p>
+            <p>Hours: Mon-Sat 9AM - 5PM</p>
+          </address>
+        </div>
+      </div>
+      
+        
+      <div class="footer-bottom">
+        <p class="copyright">© 2025 ShipDecKK. All rights reserved.</p>
+      </div>
+      
+    </div>
+  </footer>
+
+
+
+
+  <script src="/index/script.js"></script>
+</body>
+</html>

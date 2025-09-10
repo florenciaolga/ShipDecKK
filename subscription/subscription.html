@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShipDecKK</title>
+  <link rel="stylesheet" href="/index/style.css">
+  <link rel="stylesheet" href="/subscription/subscription.css">
+</head>
+<body>
+  
+  <header>
+    <nav class="navigation">
+      <h2 class="title-text">ShipDecKK</h2>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="navigation-menu"  id="navMenu">
+        <li class="navigation-item">
+          <a href="/index/index.html" class="navigation-link">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a href="/gallery/gallery.html" class="navigation-link">Gallery</a>
+        </li>
+        <li class="navigation-item">
+          <a href="/service-page/service.html" class="navigation-link">Services</a>
+        </li>
+        <li class="navigation-item">
+          <a href="/about-us/about-us.html" class="navigation-link">About Us</a>
+        </li>
+        <li class="navigation-item">
+          <a href="/subscription/subscription.html" class="navigation-link">Subscription</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="subscription-section">
+    <div class="overlay"></div>
+    <div class="subscription-container">
+      <div class="subscription-content">
+        <div class="left-content">
+          <div class="subscription-benefit">
+            <h2>Join Our Exclusive Membership</h2>
+            <ul class="benefit-list">
+              <li><span class="benefit-icon">✓</span> Access to premium ship designs</li>
+              <li><span class="benefit-icon">✓</span> Special member discounts</li>
+              <li><span class="benefit-icon">✓</span> Monthly newsletter</li>
+              <li><span class="benefit-icon">✓</span> Priority support</li>
+              <li><span class="benefit-icon">✓</span> Exclusive events</li>
+            </ul>
+
+            <div class="testimonial">
+              <p>"ShipDecKK has completely transformed our maritime experience!"</p>
+              <span class="testimonial-author">- Captain Philip, Premium Member</span>
+            </div>
+
+          </div>
+        </div>
+        
+        <div class="right-content">
+          <div class="subscription-form">
+            <h2>Subscription</h2>
+            <form id="subscribeForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your full name">
+                <span class="form-error" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email address">
+                <span class="form-error" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Create a secure password">
+                <span class="form-error" id="passwordError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="confirmPassword">Confirm Passoword</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm your password">
+                <span class="form-error" id="confirmError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Enter your age" min="18">
+                <span class="form-error" id="ageError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subscriptionType">Subscription Type</label>
+                <select name="subscribe" id="subscriptionType">
+                  <option value="">-- Select Subscription Type --</option>
+                  <option value="basic">Basic - $9.99/month</option>
+                  <option value="premium">Premium - $19.99/month</option>
+                  <option value="vip">VIP - $29.99/month</option>
+                </select>
+                <span class="form-error" id="subscriptionError"></span>
+              </div>
+
+              <div class="form-group terms-checkbox">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to the Terms and Conditions</label>
+                <span class="form-error" id="termsError"></span>
+              </div>
+
+              <button type="submit" class="submit-btn">Subscribe Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="success-panel" id="successPanel">
+      <div class="success-content">
+        <div class="success-icon">✓</div>
+        <h2>Subscription Successful!</h2>
+        <p>We can't wait to see you sail with us!</p>
+        <p class="subscription-details">Your <span id="subscriptionLevel">Premium</span> membership is now active.</p>
+        <button class="return-btn" id="returnButton">Return to Home</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+
+      <div class="footer-page">
+        <div class="footer-bottom">
+          <h3 class="footer-title">ShipDecKK</h3>
+          <p class="footer-desc">
+            Your trusted partner in premium yacht, liners, and cargo
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <address>
+            <p>Address: Jl. MH. Thamrin, RT.002/RW.001, Panunggangan, Kec. Pinang, Kota Tangerang, Banten 15143</p>
+            <p>Phone: 08123456789</p>
+            <p>Email: shipdeckk2025@gmail.com</p>
+            <p>Hours: Mon-Sat 9AM - 5PM</p>
+          </address>
+        </div>
+      </div>
+      
+        
+      <div class="footer-bottom">
+        <p class="copyright">© 2025 ShipDecKK. All rights reserved.</p>
+      </div>
+      
+    </div>
+  </footer>
+
+  <script src="/index/script.js"></script>
+</body>
+</html>

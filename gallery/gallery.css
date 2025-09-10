@@ -1,0 +1,206 @@
+.gallery{
+  padding-top: 100px;
+  background: #748182;
+}
+
+.gallery-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  background: #223638;
+  position: sticky;
+  top: 70px;
+
+}
+
+.gallery-title{
+  text-align: center;
+  margin: 20px 0 40px;
+  color: #223638;
+  font-size: 50px;
+}
+
+.gallery-sub{
+  text-align: center;
+  margin: -20px 0 40px;
+  color: #223638;
+}
+
+.search-container{
+  position: relative;
+  width: 500px;
+  max-width: 90%;
+}
+
+#searchBar{
+  padding: 10px 45px 10px 15px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #F6FFF8;
+  border: none;
+}
+
+#searchBar:focus{
+  outline: none;
+}
+
+.filter{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.filter-btn{
+  background: #F6FFF8;
+  color: #223638;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.filter-btn:hover, .filter-btn.active{
+  background: #223638;
+  color: #F6FFF8;
+}
+
+
+
+.gallery-grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 40px 80px;
+  justify-content: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+
+.img-card-gallery img{
+  width: 100%;
+  border-radius: 20px;
+  height: 170px;
+}
+
+.ship-card{
+  background: #223638;
+  border-radius: 20px;
+  width: 300px;
+  padding: 15px;
+  color: #F6FFF8;
+}
+
+.ship-card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.ship-info{
+  text-align: left;
+}
+
+.ship-tag{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ship-info h3{
+  margin-bottom: 10px;
+}
+
+.ship-info p{
+  margin-bottom: 10px;
+}
+
+.ship-specification{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.price-container{
+  display: flex;
+  margin-top: 10px;
+}
+
+.price{
+  background: #F6FFF8;
+  color: #223638;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    padding-top: 70px;
+  }
+  
+  .gallery-title {
+    font-size: 30px;
+    margin: 15px 0 15px;
+  }
+  
+  .gallery-sub {
+    margin: 10px 10px 30px;
+    font-size: 15px;
+  }
+  
+  .gallery-header {
+    padding: 15px;
+    top: 60px;
+  }
+  
+  .search-container {
+    width: 100%;
+  }
+  
+  .filter {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 10px;
+  }
+  
+  .filter-btn {
+    font-size: 15px;
+    padding: 5px 15px;
+  }
+  
+  .gallery-grid {
+    padding: 15px;
+    gap: 20px;
+  }
+  
+  .ship-card {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .img-card-gallery img {
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .ship-specification {
+    font-size: 15px;
+    gap: 15px;
+  }
+  
+  .ship-info h3 {
+    font-size: 20px;
+  }
+  
+  .ship-info p {
+    font-size: 15px;
+  }
+  
+  .price {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+}
